@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Tienda verde</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+     <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Tienda verde</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="catalogo.html">Catalogo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="# ">Solicitud de reciclaje</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- <a href="#formulario">IR al formulario</a> debo crear div con id formulario -->
+     </header>
+     <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12" id="Descripcion_empresa">
+                    <h2 id="Quienes">Quienes somos</h2>
+                    <p id="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nemo fuga quia magni ut amet quo, provident eius aliquid? Voluptates, asperiores soluta? Harum provident adipisci ex expedita sint perspiciatis asperiores sequi doloribus dolores? Beatae alias pariatur quae enim ratione. Voluptates, at unde repellat, qui aspernatur tenetur quisquam eaque culpa sint veritatis doloribus cum reiciendis ad similique ullam officia consectetur quidem, autem assumenda maxime commodi ratione nemo quaerat? Perspiciatis, pariatur? Laboriosam reiciendis facere cupiditate voluptatum suscipit maiores exercitationem fugiat assumenda possimus totam neque, repellendus sint sit ipsam ut magni omnis tenetur ab nostrum facilis quaerat magnam inventore. Distinctio officiis sapiente corporis reiciendis in provident vero accusantium accusamus voluptates quisquam ex exercitationem cupiditate dolorem itaque, ad quidem. Ad eum voluptas, quae tenetur impedit fuga. Culpa illo deleniti fugit mollitia est pariatur, fuga repellat possimus? Magnam ipsum magni voluptatem velit est porro reprehenderit dignissimos, error maiores ea, itaque nesciunt facilis commodi fugit eligendi. Temporibus officiis dolore eveniet similique eius! Tempore tempora excepturi dolor modi, sit, ex beatae optio velit dicta culpa, eos voluptatum temporibus quia cumque? Vero quisquam veritatis soluta! Nemo illo unde sit ipsum aliquam, facere eum natus totam similique voluptates non corrupti, nulla quis culpa consequuntur distinctio suscipit ratione. Distinctio, atque.</p>
+                </div>
+            </div>
+
+            <div class="row">
+              <h2 id="destacados">Productos destacados</h2>
+            </div>
+
+            <div class="row" id="productosDes">
+                <div class="col-md-6 d-flex">
+                    <img src="imagenes/jabones-artesanos.jpg" class="img-thumbnail img-fluid imgDestacado" alt="Jabon Ecologico">
+                    <p id="imagentext">Este jabon ecologico es una opcion saludable y respetuosa con nuestro medio ambiente del cual todos nos debemos preocupar. Hecho con aceites vegetales y escencias naturales.</p>
+                </div>
+                <div class="col-md-6 d-flex">
+                    <img src="imagenes/Basureros para reciclaje.jpg" class="img-thumbnail img-fluid imgDestacado" alt="Basureros para reciclaje">
+                    <p id="imagentext">Estos basureros nos permiten contribuir para un futuro mas sostenible donde estos basureros se diseñaron para facilitar la separación y el reciclaje de distintos tipos de residuos , lo cual hace que las personas puedan reciclar ya que sienten mas amigable la facilidad que les da para separar los diversos residuos</p>
+                </div>
+            </div>
+            <div class="row" id="productosDes">
+                <div class="col-md-6 d-flex">
+                    <img src="imagenes/DetergenteEcologico.jpg" class="img-thumbnail img-fluid imgDestacado" alt="Detergente Ecologico">
+                    <p id="imagentext">Nuestro detergente ecologico es una buena opcion para quienes desean reducir la huella de carbono generada y cuidar el medio ambiente. Está hecho con ingredientes naturales y biodegradables , lo cual hace que este sea seguro para el agua y el ecosistema</p>
+                </div>
+                <div class="col-md-6 d-flex">
+                    <img src="imagenes/Bolsa reutilizable.jpg"  class="img-thumbnail img-fluid imgDestacado" alt="Bolsas reutilizables">
+                    <p id="imagentext">Nuestras bolsas reutilizables son una inversion a futuro para nuestro planeta. Está hecha de materiales reciclados y biodegradables, lo cual permite que estas aporten al momento de descomponerse</p>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 offset-md-1" id="formul">
+                <form id="formulario-reciclaje">
+                  <h2 id="soli">Solicitud de Reciclaje</h2>
+                  <div class="form-group">
+                    <label for="tipo-residuo" id="textTipo">Tipo de Residuo:</label>
+                    <select id="tipo-residuo" name="tipo-residuo" class="form-control">
+                      <option value="">Seleccione un tipo de residuo</option>
+                      <option value="plastico">Plástico</option>
+                      <option value="papel">Papel</option>
+                      <option value="vidrio">Vidrio</option>
+                      <option value="metales">Metales</option>
+                      <option value="electronicos">Electrónicos</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="subcategoria-residuo">Subcategoría de Residuo:</label>
+                    <select id="subcategoria-residuo" name="subcategoria-residuo" class="form-control">
+                      <!-- Opciones se cargarán dinámicamente según el tipo de residuo seleccionado -->
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="nombre-solicitante">Nombre del Solicitante:</label>
+                    <input type="text" id="nombre-solicitante" name="nombre-solicitante" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="correo-electronico">Correo Electrónico:</label>
+                    <input type="email" id="correo-electronico" name="correo-electronico" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="direccion-recoleccion">Dirección de Recolección:</label>
+                    <input type="text" id="direccion-recoleccion" name="direccion-recoleccion" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="cantidad-residuos">Cantidad de Residuos:</label>
+                    <input type="number" id="cantidad-residuos" name="cantidad-residuos" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label for="comentarios-adicionales">Comentarios Adicionales:</label>
+                    <textarea id="comentarios-adicionales" name="comentarios-adicionales" class="form-control"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary" id="btnEnviar">Enviar Solicitud</button>
+                </form>
+              </div>
+            </div>
+        </div>
+     </main>
+
+     
+     
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

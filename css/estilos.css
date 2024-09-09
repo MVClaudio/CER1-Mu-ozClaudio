@@ -1,0 +1,100 @@
+/* Posibles colores
+    F2C57C
+    DDAE7E
+    7FB685
+    426A5A
+    216869
+    49A078
+    9CC5A1
+    DCE1DE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar{
+    background-color: #96E072;
+}
+
+main{
+    padding-top: 50px;
+}
+
+#Descripcion_empresa{
+    background-color: #DCE1DE;
+    color: #365f65;
+    
+}
+
+#Quienes{
+    color: #3C5A14  ;
+    padding-left: 2px;
+    padding-top: 11px;
+}
+
+#descripcion{
+    text-align: justify;
+}
+
+.imgDestacado{
+    width: 40%;
+    display: flex;
+    float: left;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.img-thumbnail{
+    border-color: #508991;
+    border-width: 5px;
+}
+
+#imagentext{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#destacados{
+    text-align: center;
+    background-color: #ABC8C0;
+    margin-bottom: 0px;
+    width: 100%;
+    padding-top: 15px;
+}
+
+
+#productosDes{
+    background-color: #ABC8C0;
+}
+
+#formulario-reciclaje{
+    padding-top: 20px;
+    align-items: first baseline;
+}
+
+#formul{
+    background-color: #508991;
+    display: flex;
+    width: 100vw;
+    margin: 0px;
+    
+}
+
+#soli{
+    color: #3C5A14;
+}
+
+#btnEnviar{
+    background-color: #3C5A14;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
